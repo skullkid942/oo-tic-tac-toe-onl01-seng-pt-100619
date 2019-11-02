@@ -66,7 +66,7 @@ class TicTacToe
 	  	puts "Please enter 1-9:"
 	  	input = gets.chomp
   	end
-end
+  end
   
   def turn_count
     counter = 0
