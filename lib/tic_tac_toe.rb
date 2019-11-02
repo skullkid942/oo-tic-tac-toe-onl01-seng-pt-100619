@@ -79,11 +79,12 @@ def draw?
   !(won?) && (full?)
 end
 
-def over?(board)
+def self.over?(board)
   if draw?(board) || won?(board)
     return true
   else
     return false
+  end 
 end
 
 def winner
